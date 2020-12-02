@@ -1,52 +1,34 @@
-*{
+* {
   box-sizing: border-box;
-  margin: 0;
+  margin:0;
   padding: 0;
 }
 body {
-    color: #fffbf7;
-    font-family: "Open Sans", sans-serif;
-  }
-  h1 {
-    text-align: center;
-    color: #025157;
-    font-family: 'Alegreya', serif;
-    font-size: 60px;
-    font-weight: 900;
-
-  }
-  button {
-    background-color: #025157;
-    height: 35px;
-    color: #fff;
-    border: #025157;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 6px 20px;
-    margin-left: -10px;
-  }
-  input {
-    height: 35px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: #8b8b8b;
-  }
-
-  p {
-    color: #8b8b8b;
-  }
-
-  img {
-    width: 70%;
-    vertical-align: center;
-  }
-
-h4 {
-  text-align: center;
-  color: #a5a6aa;
+  color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
 }
 
-button {
+h1 {
+  text-align: center;
+  color: #025157;
+  font-family: 'Alegreya', serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 120px;
+  margin-bottom: 0;
+}
+p {
+  text-align: center;
+}
+img {
+  width: 70%;
+  vertical-align: center;
+}
+h4 {
+  text-align: center;
+  color: #a5a6aa; horizontal-
+}
+button{
   background-color: #025157;
   height: 35px;
   color: #fff;
@@ -56,7 +38,6 @@ button {
   padding: 6px 20px;
   margin-left: -10px;
 }
-
 input {
   height: 35px;
   border-top-left-radius: 10px;
@@ -67,23 +48,23 @@ form {
 }
 
 .header {
-  margin: 40px 20px 0px 20px;
-  font-size: 0;
-  text-align: center;
-  height: 45px;
+margin: 40px 20px 0px 20px;
+font-size: 0;
+text-align: center;
+height: 45px;
 }
 
 .header > * {
-  display: inline-block;
-  font-size: 16px;
-  vertical-align: middle;
-  height: 100%;
-  line-height: 45px;
+display: inline-block;
+font-size: 16px;
+vertical-align: middle;
+height: 100%;
+line-height: 45px;
 }
 
 .menu-item {
-  display: inline;
-  margin: 0 25px;
+display: inline;
+margin: 0 25px;
 }
 
 .logo {
@@ -92,7 +73,7 @@ height: 100%;
 }
 
 .logo > img{
-  height: 100%;
+height: 100%;
 }
 
 .navbar {
@@ -103,25 +84,24 @@ font-weight: 500;
 }
 
 .actions {
-  width: 20%;
-  text-align: right;
-  font-size: 14px;
-  font-weight: 600;
+width: 20%;
+text-align: right;
+font-size: 14px;
+font-weight: 600;
 }
 
 .actions > *{
-  margin: 0 10px;
+margin: 0 10px;
 }
 
 .actions > a{
-  color: #67b54b;
+color: #67b54b;
 }
 
 .actions > button {
-  color: #fff;
-  background-color: #67b567;
-  padding: 12px 14px;
-  border-radius: 5px;
-  font-weight: 600;
+color: #fff;
+background-color: #67b567;
+padding: 12px 14px;
+border-radius: 5px;
+font-weight: 600;
 }
-/* comentarios */
