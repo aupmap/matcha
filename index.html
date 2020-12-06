@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Aquí va información importante pero no visible dentro del navegador -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- Aquí va información importante pero no visible
+          dentro del navegador -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./styles.css">
   <title>Matcha en Bedu</title>
 </head>
 <body>
+  <section class="fixed-header">
   <header class="header">
-    <a class="logo">
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo matcha"/>
+    <a href="#" class="logo">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Imagen de Matcha" />
     </a>
-    <!--Menu principal-->
     <nav class="navbar">
       <ul>
-        <li class="menu-item">Platform</li>
+        <li class="menu-item"> <a href="./platform.html"> Platform</li>
         <li class="menu-item">Pricing</li>
         <li class="menu-item">Customers</li>
         <li class="menu-item">Resources</li>
@@ -24,29 +25,53 @@
     </nav>
     <div class="actions">
       <a>Sign In</a>
-      <button> start free trial</button>
+      <button>Start Free Trial</button>
     </div>
   </header>
-<main>
-  <!-- Esto es lo que se verá en el navegador web -->
-  <h1> Build your blog. Build your business.</h1>
-  <h4>
-    Instantly publish articles, drive more traffic, grow your email list, and
-    see your blog's impact on sales.
-  </h4>
-  <form>
-    <input type="email" pleaceholder="Enter email address" />
-    <button>
-      Try it now &rarr;
-    </button>
-  </form>
-  <p>
-    Start publishing today with a <strong>free 7-day trial</strong>.
-  </p>
-  <p>
-    <strong>No credit card</strong> required.
-  </p>
-  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
-  <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" />
-</main>
-</body>
+  </section>
+  <section class="main">
+    <h1>Build your Blog, build your business.</h1>
+    <p class="texto_centrado">Instantly publish articles, drive more traffic, grow your email list, and see your blog's
+      impact on sales.</p>
+    <form class="signup-form">
+      <input type="email" placeholder="Enter email address" maxlength="30" />
+      <button type="submit">
+        Try it now &rarr;
+      </button>
+      <br>
+    </form>
+    <p class="grey-text">Start publishing today with <strong> free 7-day trial</strong></p>
+    <p class="grey-text"><strong>No credit card</strong> required</p>
+    <figure class="banner">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="MAtcha">
+    </figure>
+    <figure class="second_banner">
+      <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" />
+    </figure>
+    <section class="promo">
+    <article class="explainatory-video">
+      <video article
+      poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+      <source type="video/webm"
+         src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"/>
+      </video>
+      <img id="works" src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works">
+    </article>
+    <article class= "publish">
+    <h3>Publish to your blog in minutes, not hours.</h3>
+    <br>
+    <p>Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work.
+      With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
+    </p>
+    <br>
+    <p> Start publishing today: </p>
+    <br>
+    <form class="signup-form">
+      <input type="email" placeholder="Enter email address">
+
+      <button> Start my trial</button>
+      </form>
+    </article>
+    </section>
+  </body>
+</html></a>
